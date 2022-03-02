@@ -3,77 +3,72 @@
 
 
 // STEP 1
-
-/* let some_month;
-function the Month();
-let current-month;
-let summer_month;
-let MyLibrary-function
-
-to 
-
+/*
 let someMonth;
 function theMonth();
 let currentMonth;
 let summerMonth;
 let myLibraryFunction;
- */
-
+*/
 
 // STEP 2
-
-
-/* 2.5 				    // numeric literal 
-'Hello world!' 			// string literal 
-true 				    // Boolean literal 
-null 				    // literal null value 
-{x:7, y:8} 			    // Object literal 
-[1,2,3] 			    // Array literal 
-function(y){return y*y;} 	// function literal
-
+/* 
+2.5 				        // numeric literal 
+'Hello world!' 			    // string literal 
+true 				        // Boolean literal 
+null 				        // literal null value 
  */
+
 // STEP 3
 
-/* let someMonth = 2 * (2022 / 2220) + 2;
+/* 
+let someMonth = 2 * (2022 / 2220) + 2;
+let num = 2 * (7 / 3) + 2;
  */
+
+
+
 
 // STEP 4
 
-/* var <firstName>;
-var <lastName>;
-var <address>;
-var <city>;
-var <state>;
-var <zipCode>;
-var <yourAge>;
-var <referralSource>;
-var <mayWeContactYou>;
+/* 
+let firstName;
+let lastName;
+let address;
+let city;
+let state;
+let zipCode;
+let yourAge;
+let referralSource;
+let mayWeContactYou;
  */
 
 // STEP 5
 
-var firstName; 
+/*
+let firstName; 
 firstName = 'Dulce'; // assigned a string value
 console.log(firstName); // access a variable
 
-var lastName; 
+let lastName; 
 lastName = 'DeNovellis'; // assigned a string value
-console.log(lastName); 
+console.info(lastName); 
 
-var city; 
+let city; 
 city = 'San Diego' // assigned a string value
-console.log(city); 
+console.warn(city); 
 
 
 // STEP 6
-//Add a number and a string and display the coerced result in the browser’s console window. 
 
-/* var yourAge = 40; 
-console.log(`My age is ${yourAge}.`+ );
+/* 
 
-var firstName; 
-firstName = 'Dulce';
-console.log(`Hello, my name is (${firstName}.`));
+let firstName = 'Dulce';
+let yourAge = 40; 
+let hello = `My name is ${firstName} and I am ${yourAge} years old`
+console.log(hello)
+
+
 
  */
 
@@ -81,42 +76,134 @@ console.log(`Hello, my name is (${firstName}.`));
 
 
 
+   /*      let firstName= 'Dulce'
+        let lastName= 'Caldino-DeNovellis'
+        let yourAge = 40; 
+        let isOverForty = true;
+        console.log(firstName + ' ' + lastName + '\n Dulce is ' + yourAge + ' years old.');
+        console.log('She is over forty ='+isOverForty.toString());
+ */
+
+
 // STEP 8
 
+/* let someString = ('Who once said, "Only two things are infinite, the universe and human stupidity, and I am not sure about the former."');
+console.log(someString); */
+
+// \u0027 I'm not sure if we can use uncode.
+
+
+
 // STEP 9
+
+/* 
+let x = 100;
+let y = null;
+x = null;
+console.log(x);
+console.log(y);
+ */
 
 
 // STEP 10
 
+     /*    let firstName= 'Dulce'
+        let lastName= 'Caldino-DeNovellis'
+        let yourAge = 40; 
+        let address = undefined;
+        let isOverForty = true
+        console.log(firstName + ' ' + lastName + '\n Dulce is ' + yourAge + ' years old.\n' + ' Her address is ' + undefined);
+ */
+      
 
 // STEP 11
+    
 
+/* 
+let firstName = 'Dulce';
+let lastName= 'Caldino-DeNovellis'
+let yourAge = 40; 
+let hello = ('Hello ' + firstName + lastName+', welcome to the JavaScript class! ');
+alert(hello)
+ */
 
 // STEP 12
-
+/* 
+let name = 'Dulce';
+alert(name);
+ */
 
 // STEP 13
-
+/* 
+let course = 'JavaScript';
+alert(course);
+ */
 
 // STEP 14
 
+/* let firstName = 'Dulce';
+let lastName= 'Caldino-DeNovellis'
+let yourAge = 40; 
+let hello = ('Hello ' + firstName + lastName+ '. \nWelcome to the JavaScript class! ');
+alert(hello) */
+
 
 // STEP 15
+/* 
+let name = prompt("What is your name?");
+ */
 
 
 
 // STEP 16
 
+/* 
+let course = prompt('What class are you taking?');
+console.log(course);
+ */
+
 
 // STEP 17
-
+/* 
+let x = 10;
+let y = 20;
+let sum = x + y;
+console.log((x) + (y));
+ */
 
 // STEP 18
+/* 
+let x = 20;
+console.log(20 + (x));
+ */
 
 
 // STEP 19
-
-
+/* 
+let x = 20;
+console.log((x) * 5);
+ */
 // STEP 20
+/* 
+let x = ((20) / 3);
+x =+1;
+console.log(++x);
+ */
+// STEP 21
+/* 
+let num = parseInt(prompt ('Enter a number between 1 and 10'));
+    if (num !== 5 || num > 10) {
+    console.log('Sorry! that is not the surprise number');
+}
+else {
+    console.log("You got the number rigtht");
+}
+ */
 
+
+// STEP 22
+let a = true;
+let b = false;
+let c = 8;
+console.log((c > 2) && (c < 2)); 
 
